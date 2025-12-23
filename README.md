@@ -60,6 +60,7 @@ The extension should now appear in your Chrome toolbar.
 ---
 
 ## Project Structure
+```
 job-autofill-extension/
 │
 ├── manifest.json
@@ -67,7 +68,7 @@ job-autofill-extension/
 ├── popup.js
 ├── script.js
 ├── README.md
-└── icons/
+```
 
 ---
 
