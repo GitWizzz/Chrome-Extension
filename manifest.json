@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Job Application Autofill",
+  "version": "1.0",
+  "description": "Autofill common job application of the fields with onne click",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ]
+}
